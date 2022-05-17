@@ -26,7 +26,7 @@ public class ScheduleAppoinment {
 		driver.switchTo().frame("myframe");
 		driver.findElement(By.id("datepicker")).click();
 		
-		
+		System.out.println("Test Completed");
 	
 		
 	}
